@@ -23,6 +23,7 @@ class estructura_selectivas:
             aumento = sueldo * 0.10
             Nuevo_sueldo = sueldo + aumento
             print("Su nuevo sueldo es {}" .format(Nuevo_sueldo))
+            print("Con un aumento de {}".format(aumento))
         else:
             print("Su sueldo sigue siendo {}" .format(sueldo))
 
@@ -66,7 +67,7 @@ class estructura_selectivas:
     # ESTRUCTURAS SELECTIVAS MULTIPLES
     def Ejer_Selectivas6(self):
         valor1 = int(input("""Ingrese un opcion: 
-        1 == mulriplicar por 100
+        1 == multiplicar por 100
         2 == potenciar por 100
         3 == dividir 100
         0 == Salir"""))
@@ -89,8 +90,10 @@ class estructura_selectivas:
             print("""La calificacion 1: {},la calificación 2:{} son mayores a 80 puntos
             FELICIDADES ES ACEPTADO""".format(nota1, nota2))
         else:
-            print("""La calificacion 1: {},la calificación 2:{} son MENORES a 80 puntos
-            UUSTED SERA RECHAZADO""".format(nota1, nota2))
+            print("""La calificacion 1: {} o la calificación 2:{} MENORES a 80 puntos
+            USTED SERA RECHAZADO""".format(nota1, nota2))
+            
+            
 if __name__ == "__main__":
     EstructurasSelectivas = estructura_selectivas()
     EstructurasSelectivas.Ejer_Selectivas1()
