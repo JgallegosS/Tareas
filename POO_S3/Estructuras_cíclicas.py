@@ -86,7 +86,7 @@ class Es_Ciclicas:
             I += 1
             if I > numero:
                 break
-            print("El resultado de la serie es: {}" .format(serie))
+            print("El resultado de la serie es : {}" .format(serie))
 
 if __name__ == "__main__":
     ciclos = Es_Ciclicas()
